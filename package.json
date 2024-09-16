@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "login-form",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +41,27 @@
   },
   "devDependencies": {
     "json-loader": "^0.5.7"
+=======
+  "name": "node-express-mongodb",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "mongodb"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.11.1"
+>>>>>>> 94827282cdd262c5dc1e03617cc9e59205ce4911
   }
 }
