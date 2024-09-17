@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "login-form",
   "version": "0.1.0",
   "private": true,
@@ -11,14 +10,14 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^8.0.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,27 +40,5 @@
   },
   "devDependencies": {
     "json-loader": "^0.5.7"
-=======
-  "name": "node-express-mongodb",
-  "version": "1.0.0",
-  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "nodejs",
-    "express",
-    "rest",
-    "api",
-    "mongodb"
-  ],
-  "author": "bezkoder",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mongoose": "^6.11.1"
->>>>>>> 94827282cdd262c5dc1e03617cc9e59205ce4911
   }
 }
